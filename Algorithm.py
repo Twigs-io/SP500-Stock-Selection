@@ -19,7 +19,7 @@ class UglyYellowGreenGalago(QCAlgorithm):
         self.N_Top = 50
         self.lookback = 504
 
-        ff_url = 'https://www.dropbox.com/scl/fi/ktcporjb448r05j3xdext/F-F_Research_Data_5_Factors_2x3_daily.csv?rlkey=1trirkws1hyzdba568wwkvd0x&st=ykfne9vc&dl=1'
+        ff_url = ''
 
         ff_file_content = self.download(ff_url)
         self.ff_data = pd.read_csv(StringIO(ff_file_content))
